@@ -13,7 +13,7 @@ This is a fork project of home-brew-cask-fonts by hideo54. I strongly suggest yo
 ## 使い方 (Use example)
 
 ```bash
-brew tap hideo54/cask-font git@github.com:hideo54/homebrew-cask-fonts.git
+brew tap hideo54/cask-fonts git@github.com:hideo54/homebrew-cask-fonts.git
 brew install font-firge
 ```
 
