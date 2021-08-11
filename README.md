@@ -17,6 +17,12 @@ brew tap hideo54/cask-font git@github.com:hideo54/homebrew-cask-fonts.git
 brew install font-firge
 ```
 
+## 注意 (Caution)
+
+このリポジトリは完全にhideo54個人のためのものです。本家の代わりにマイナーフォントの Pull Request を取り込むといったことはしませんのでご容赦ください。
+
+This repository is for hideo54 only. I don't think I will merge any pull requests that register a minor font.
+
 ## homebrew-cask-fonts License
 
 Code is under the [BSD 2 Clause (NetBSD) license](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/LICENSE)
