@@ -1,25 +1,21 @@
 # homebrew-cask-fonts
 
-Here is where you can find or submit font Casks for the [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) project.
+This is a fork project of home-brew-cask-fonts by hideo54. I strongly suggest you use [the original repository](https://github.com/Homebrew/homebrew-cask-fonts) if you do not understand what this repository is.
 
-## Let’s try it!
+本家の [home-brew-cask-fonts](https://github.com/Homebrew/homebrew-cask-fonts) リポジトリには、“provably popular” (>=30 forks, >=30 watchers or >=75 stars) なフォントしか登録できません。
+そこで、このリポジトリでは、hideo54が気に入ったものの本家に登録できないようなフォントを追加しています。
+
+## このリポジトリにあって本家にはないフォント
+
+* **font-firge**: Firge, Firge Console, Firge35, Firge35 Console ([GitHub](https://github.com/yuru7/Firge))
+* **font-firgenerd**: FirgeNerd, FirgeNerd Console, Firge35Nerd, Firge35Nerd Console ([GitHub](https://github.com/yuru7/Firge))
+
+## 使い方 (Use example)
 
 ```bash
-$ brew tap homebrew/cask-fonts         # You only need to do this once!
-$ brew install font-inconsolata
+brew tap hideo54/cask-font git@github.com:hideo54/homebrew-cask-fonts.git
+brew install font-firge
 ```
-
-## Submitting a Cask to this repository
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Font Licenses
-
-homebrew-cask-fonts will only accept fonts which are freely-distributable. However, even freely-distributable fonts may have limitations (for instance, if you use them in a commercial enterprise). It is the responsibility of the user to know and respect the license of each font.
-
-## Installation behind a proxy
-
-Some font Casks use [Subversion](https://subversion.apache.org/), which requires [configuration when behind a proxy](https://subversion.apache.org/faq.html#proxy).
 
 ## homebrew-cask-fonts License
 
