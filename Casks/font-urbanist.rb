@@ -1,8 +1,8 @@
 cask "font-urbanist" do
-  version "1.251"
-  sha256 "653b0298e14c0ee6a530b466e2af88b88a1b829edbdaf0e6500efcd4561fd1d0"
+  version "1.302"
+  sha256 "7d139d674d20831e6b2257f734b1cb700c57cdd8961e26cfb74d8304bdf63aea"
 
-  url "https://github.com/coreywho/Urbanist/releases/download/#{version}/Urbanist_Font_Family_#{version}.zip"
+  url "https://github.com/coreywho/Urbanist/releases/download/v#{version}/Urbanist_Font_Family_#{version}.zip"
   name "Urbanist"
   homepage "https://github.com/coreywho/Urbanist"
 
