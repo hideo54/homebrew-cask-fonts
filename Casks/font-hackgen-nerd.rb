@@ -1,6 +1,6 @@
 cask "font-hackgen-nerd" do
-  version "2.5.1"
-  sha256 "99a5fdc5e532624200c6dcd169264537783123951a66969ae47a76656c642698"
+  version "2.5.3"
+  sha256 "c9393f54bc7704c315b8293244738d014e8b6149090537348b8550d1ef1be254"
 
   url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGenNerd_v#{version}.zip"
   name "HackGenNerd"

@@ -1,6 +1,6 @@
 cask "font-juliamono" do
-  version "0.042"
-  sha256 "bf7894f2c682f00a5ec733cd1ac02883a8d3f7b03e093a5bcd8848d08e9c1ffc"
+  version "0.044"
+  sha256 "06940bcc71f1516de07d68a4ef5adf940841a0c1cff12a33e56381df84ea61e3"
 
   url "https://github.com/cormullion/juliamono/releases/download/v#{version}/JuliaMono.tar.gz"
   name "JuliaMono"
@@ -8,12 +8,19 @@ cask "font-juliamono" do
   homepage "https://github.com/cormullion/juliamono"
 
   font "JuliaMono-Black.ttf"
+  font "JuliaMono-BlackItalic.ttf"
   font "JuliaMono-Bold.ttf"
+  font "JuliaMono-BoldItalic.ttf"
   font "JuliaMono-BoldLatin.ttf"
   font "JuliaMono-ExtraBold.ttf"
+  font "JuliaMono-ExtraBoldItalic.ttf"
   font "JuliaMono-Light.ttf"
+  font "JuliaMono-LightItalic.ttf"
   font "JuliaMono-Medium.ttf"
+  font "JuliaMono-MediumItalic.ttf"
   font "JuliaMono-Regular.ttf"
+  font "JuliaMono-RegularItalic.ttf"
   font "JuliaMono-RegularLatin.ttf"
   font "JuliaMono-SemiBold.ttf"
+  font "JuliaMono-SemiBoldItalic.ttf"
 end

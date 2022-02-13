@@ -1,16 +1,10 @@
 cask "font-fira-code" do
-  version "5.2"
-  sha256 "521a72be00dd22678d248e63f817c0c79c1b6f23a4fbd377eba73d30cdca5efd"
+  version "6.2"
+  sha256 "0949915ba8eb24d89fd93d10a7ff623f42830d7c5ffc3ecbf960e4ecad3e3e79"
 
   url "https://github.com/tonsky/FiraCode/releases/download/#{version}/Fira_Code_v#{version}.zip"
-  appcast "https://github.com/tonsky/FiraCode/releases.atom"
   name "Fira Code"
   homepage "https://github.com/tonsky/FiraCode"
 
-  font "ttf/FiraCode-Bold.ttf"
-  font "ttf/FiraCode-Light.ttf"
-  font "ttf/FiraCode-Medium.ttf"
-  font "ttf/FiraCode-Regular.ttf"
-  font "ttf/FiraCode-Retina.ttf"
-  font "ttf/FiraCode-SemiBold.ttf"
+  font "variable_ttf/FiraCode-VF.ttf"
 end

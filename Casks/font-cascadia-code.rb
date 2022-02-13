@@ -1,11 +1,16 @@
 cask "font-cascadia-code" do
-  version "2106.17"
-  sha256 "22c030fec5e5c516580fd6e24b385c935baae2f6c110024aeba20240d533a68a"
+  version "2111.01"
+  sha256 "51fd68176dffb87e2fbc79381aef7f5c9488b58918dee223cd7439b5aa14e712"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   name "Cascadia Code"
   desc "Monospaced font that includes programming ligatures"
   homepage "https://github.com/microsoft/cascadia-code"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "ttf/static/CascadiaCode-Bold.ttf"
   font "ttf/static/CascadiaCode-BoldItalic.ttf"

@@ -1,5 +1,5 @@
 cask "font-sf-pro" do
-  version "17.0d9e1"
+  version "17.1d1e1"
   sha256 :no_check
 
   url "https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg"
@@ -8,7 +8,7 @@ cask "font-sf-pro" do
   desc "Sans-serif variant of \"San Francisco\" by Apple"
   homepage "https://developer.apple.com/fonts/"
 
-  pkg "San Francisco Pro.pkg"
+  pkg "SF Pro Fonts.pkg"
 
-  uninstall pkgutil: "com.apple.pkg.SanFranciscoPro"
+  uninstall pkgutil: "com.apple.pkg.SFProFonts"
 end
