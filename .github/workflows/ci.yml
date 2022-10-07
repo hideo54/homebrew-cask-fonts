@@ -11,6 +11,9 @@ concurrency:
   group: "${{ github.ref }}"
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
+permissions:
+  contents: read
+
 jobs:
   generate-matrix:
     outputs:
@@ -24,7 +27,7 @@ jobs:
           test-bot: false
 
       - name: Check out Pull Request
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -50,7 +53,7 @@ jobs:
           test-bot: false
 
       - name: Check out Pull Request
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -97,7 +100,7 @@ jobs:
           mkdir "${GITHUB_WORKSPACE}"
 
       - name: Cache Homebrew Gems
-        uses: actions/cache@v2.1.7
+        uses: actions/cache@v3
         with:
           path: ${{ steps.set-up-homebrew.outputs.gems-path }}
           key: ${{ runner.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}

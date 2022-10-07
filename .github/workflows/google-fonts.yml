@@ -24,18 +24,18 @@ jobs:
             mode: delete
     steps:
       - name: Checkout homebrew/cask-fonts
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
       - name: Checkout google/fonts
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: google/fonts
           path: vendor/google-fonts
           persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
       - name: Install Python packages
@@ -46,7 +46,7 @@ jobs:
 
       - name: Create pull request with updated files
         id: create-pull-request
-        uses: peter-evans/create-pull-request@f22a7da129c901513876a2380e2dae9f8e145330
+        uses: peter-evans/create-pull-request@671dc9c9e0c2d73f07fa45a3eb0220e1622f0c5f
         with:
           branch: auto-${{ matrix.mode }}-google-fonts
           commit-message: Update Google Fonts

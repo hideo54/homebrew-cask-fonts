@@ -1,10 +1,10 @@
 cask "font-iosevka-nerd-font" do
-  version "2.1.0"
-  sha256 "6bd29ef886b808d1d76dd85f82b8823452265fda582801734aab6f9460270de3"
+  version "2.2.2"
+  sha256 "c9c661d28756abad70bea9339dd3673548737214ebec8e8481c0966cedc56931"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Iosevka.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Iosevka Nerd Font (Iosevka)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
   font "Iosevka Bold Nerd Font Complete.ttf"

@@ -1,10 +1,10 @@
 cask "font-meslo-lg-nerd-font" do
-  version "2.1.0"
-  sha256 "f0630f93b2f8c27b0cda8c4a2bae2b7a67bdd70786500e109f38c3a9b145f523"
+  version "2.2.2"
+  sha256 "a9dc3bb2442d44bfb6a571e808a0a0528977916b5ee21f58e04c10e266684e72"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Meslo.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "MesloLG Nerd Font families (Meslo LG)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
   font "Meslo LG M Bold Nerd Font Complete Mono.ttf"
